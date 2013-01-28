@@ -1,3 +1,4 @@
+*.a
 *.Po
 *.in
 *.o
@@ -5,11 +6,14 @@
 /autom4te.cache/
 Makefile
 aclocal.m4
+ar-lib
 config.h
+config.h.in
 config.status
 configure
 depcomp
 install-sh
+test-driver
 missing
 src/qgp
 stamp-h1
