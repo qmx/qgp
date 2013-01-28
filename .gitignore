@@ -1,0 +1,15 @@
+*.Po
+*.in
+*.o
+*.log
+/autom4te.cache/
+Makefile
+aclocal.m4
+config.h
+config.status
+configure
+depcomp
+install-sh
+missing
+src/qgp
+stamp-h1
