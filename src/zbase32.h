@@ -1,9 +1,0 @@
-#ifndef _ZBASE32_H_
-#define _ZBASE32_H_
-
-#include <stdint.h>
-
-int zbase32_dec(const uint8_t *input, uint8_t *output, int outputLen);
-int zbase32_enc(const uint8_t *input, int len, uint8_t *output, int outputLen);
-
-#endif

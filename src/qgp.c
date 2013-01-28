@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <sodium.h>
 
-#include "zbase32.h"
+#include "zbase56.h"
 
 int main(int argc, char *argv[]) {
 	unsigned char pk[crypto_box_PUBLICKEYBYTES];
